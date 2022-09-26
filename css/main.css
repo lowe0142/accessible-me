@@ -1,8 +1,8 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: wheat;
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
 }
 
 h1,
@@ -22,7 +22,8 @@ h6 {
 }
 
 img {
-  width: 100%;
+  width: 75%;
+  padding-left: 125px;
 }
 
 .main-nav ul {
