@@ -29,28 +29,29 @@ img {
   border: 10px solid black;
 }
 
-nav ul {
+nav ul{
+  background-color: #2e4a62;
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
-  margin: 20px;
-  padding: 20px;
-  background-color: seashell;
-  border: 3px solid black
+  padding: 0;
+  margin: 0;
 }
 
-nav ul li {
+nav ul li{
   flex: 1;
   text-align: center;
-  text-decoration: none;
 }
 
-nav ul li a:hover, 
-nav ul li a:focus {
+nav ul li a{
   display: block;
-  color: palevioletred;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover{
   text-decoration: underline;
-  font-size: 1.25rem;
 }
 
 .owner {
