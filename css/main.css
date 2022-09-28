@@ -59,6 +59,11 @@ nav ul li a:focus {
   background-color: seashell
 }
 
+.owner li, 
+.owner p {
+  color: palevioletred;
+}
+
 form input,
 form textarea {
   display: block;
