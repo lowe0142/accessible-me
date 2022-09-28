@@ -36,6 +36,7 @@ nav ul {
   margin: 20px;
   padding: 20px;
   background-color: seashell;
+  border: 3px solid black
 }
 
 nav ul li {
@@ -44,10 +45,11 @@ nav ul li {
   text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, 
+nav ul li a:focus {
   display: block;
   color: palevioletred;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 1.25rem;
 }
 
