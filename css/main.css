@@ -33,6 +33,10 @@ h6 {
   color: darkblue
 }
 
+a:focus{
+  outline: 4px solid black;
+}
+
 container {
   max-width: 1080px;
   margin: 0 auto;
