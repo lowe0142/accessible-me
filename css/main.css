@@ -69,10 +69,12 @@ form textarea {
 }
 
 form button {
-  background: none;
+  background: pink;
   border: 2px solid black;
   padding: 1rem;
+  width: 100px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 footer {
